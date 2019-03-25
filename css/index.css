@@ -385,7 +385,49 @@ html h4 {
 }
 
 @media(max-width: 500px) {
-    body{
-    background-color: pink;
+    .container nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container nav a {
+        border-bottom: 1px solid grey;
+        width: 100%; 
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container .firstHalf {
+        padding: 10% 0;
+    }
+
+    .container .featAbout {
+        flex-direction: column;
+    }
+
+    .container .featuresSection {
+        width: 100%;
+    }
+
+    .container .aboutSection {
+        width: 100%;
+    }
+
+    .container .threeSections {
+        flex-direction: column;
+    }
+
+    .container .servicesSection {
+        width: 100%;
+    }
+
+    .container .productSection {
+        width: 100%;
+    }
+
+    .container .visionSection {
+        width: 100%;
     }
 }
