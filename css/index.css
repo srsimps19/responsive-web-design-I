@@ -329,7 +329,7 @@ html h4 {
 
 @media(max-width: 800px) {
     html {
-        margin: 5%;
+        margin: 10%;
     }
     
     .container header .logo {
@@ -373,7 +373,12 @@ html h4 {
         margin: 0;
     }
 
-    .continer .threeSections {
+    .container .threeSections {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .container footer {
         width: 100%;
         margin: 0;
     }
