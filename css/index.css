@@ -88,35 +88,21 @@ html h4 {
 .container header nav a {
 	text-decoration: none;
 	color: grey;
-}
-
-.container header nav a:hover {
-	animation: pulse 3s infinite;
-    
-}
-
-@keyframes pulse {
-	0% {
-	color: cyan;
-	}
-	50% {
-	  color: limegreen;
-	}
-	100% {
-		color: grey;
-	}
   }
 
-.container header .logo {
-}
+ .container header .logo {
+     display: flex;
+} 
 
 .container .firstHalf {
 	border-bottom: 1px solid black;
-	padding: 75px 0;
+	padding: 5% 10%;
 	display: flex;
 	align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 80%;
+    margin: 0 10%;
+
 }
 
 .container .firstSection {
@@ -147,14 +133,10 @@ html h4 {
 	font-size: 1em;
 }
 
-.container .firstSection button:hover{
-	animation: pulse 3s infinite;
-	background-color: black;
-} 
-
 .container .featAbout {
 	display: flex;
-	width: 900px;
+    width: 80%;
+    margin: 0 10%;
 }
 
 .container .featuresSection {
@@ -170,36 +152,47 @@ html h4 {
 	width: 49.5%;
 	padding: 50px 0;
 }
+.container .image2 {
+    display: flex;
+    justify-content: center;
+}
 
 .container .servicesSection {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 33%;
 	padding: 50px 0;
 }
 
 .container .productSection {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 33%;
 	padding: 50px 0;
 }
 
 .container .visionSection {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 33%;
 	padding: 50px 0;
 }
 
 .container .threeSections {
 	border-bottom: 1px solid black;
-	display: flex;
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.container footer {
+    width: 80%;
+    margin: 0 10%;
 }
 
 .container footer .contactSection {
 	padding-top: 50px;
-	display: flex;
+    display: flex;  
 }
 
 .container footer address {
