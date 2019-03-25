@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
-html {
+.container {
 	width: 80%;
 	margin: 30px 10% ;
 }
@@ -90,18 +90,18 @@ html h4 {
 	color: grey;
   }
 
- .container header .logo {
+ /* .container header .logo {
      display: flex;
-} 
+}  */
 
 .container .firstHalf {
 	border-bottom: 1px solid black;
-	padding: 5% 10%;
+	padding: 0% 0% 10%;
 	display: flex;
 	align-items: center;
     justify-content: flex-end;
     width: 80%;
-    margin: 0 10%;
+    margin: 10% 10% 10%;
 
 }
 
