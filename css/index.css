@@ -326,3 +326,61 @@ html h4 {
 .container .factsDiv .factsSection ul {
 	margin: 10px;
 }
+
+@media(max-width: 800px) {
+    html {
+        margin: 5%;
+    }
+    
+    .container header .logo {
+        margin: 5%;
+    }
+    .container header {
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+    }
+
+    .container header nav {
+        margin-top: 5%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .container .firstHalf {
+        width: 100%;
+        margin: 0;
+    }
+    .container .image1{
+        display: none;
+    }
+
+    .container .firstSection {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+        }
+    
+    .container .middle-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container .featAbout {
+        width: 100%;
+        margin: 0;
+    }
+
+    .continer .threeSections {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width: 500px) {
+    body{
+    background-color: pink;
+    }
+}
